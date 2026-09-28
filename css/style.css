@@ -1,0 +1,74 @@
+body {
+    background-color: #c2a6a688;
+    font-family: sans-serif;
+    color: rgb(167, 126, 189);
+    line-height: 1.6;
+}
+
+header {
+    background-color: rgb(167, 126, 189);
+    color: #030202;
+    padding: 5px;
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.education-container {
+    background-color: #c2a6a688;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+nav ol {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #7f708e;
+    text-decoration: none;
+}
+
+.logo img {
+    width: 100px;
+}
+
+h1, h2 {
+    color: #7f708e;
+}
+
+.search-form button {
+    color: rgb(127, 127, 255);
+}
+
+h1 {
+    font-size: 6rem;
+    border-bottom: 2px solid rgb(127, 127, 255);
+    width: fit-content;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.about-me-container,
+.my-projects-container,
+.education-container,
+.my-skills-container,
+.contact-me-container {
+    background-color: #fffffffb;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px black;
+    margin-bottom: 2rem;
+}
