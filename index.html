@@ -2,257 +2,385 @@
 <html lang="en">
 
 <head>
-    <!-- DOCUMENT INFORMATION -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Previous Sunuwar - Personal Portfolio</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <title>About Me</title>
 </head>
 
 <body>
 
-<!-- HEADER -->
-<header>
+    <!-- ================= HEADER ================= -->
 
-    <h1>Previous Sunuwar - Personal Portfolio</h1>
+    <header>
 
-    <!-- NAVIGATION -->
-    <nav>
-        <h2>Navigation</h2>
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#skills">My Skills</a></li>
-            <li><a href="#projects">My Projects</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#contact">Contact Me</a></li>
-            <li><a href="#footer">Find Me On</a></li>
-        </ul>
-    </nav>
+        <div class="header-container">
 
-    <!-- SEARCH -->
-    <form>
-        <label for="search">Search:</label>
-        <input type="search" id="search" name="search" placeholder="Search here">
-        <button type="submit">Search</button>
-    </form>
+            <!-- LOGO -->
+            <div class="logo">
+                <img src="images/previous logo.png"
+                     alt="Previous logo">
+            </div>
 
-</header>
 
-<!-- MAIN CONTENT -->
-<main>
+            <!-- NAVIGATION -->
+            <div class="nav-bar">
 
-    <!-- ABOUT ME -->
-    <section id="about">
+                <nav>
+                    <ol>
 
-        <h2>About Me</h2>
+                        <li>
+                            <a href="https://www.youtube.com/" target="_blank">
+                                My YouTube
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.linkedin.com/in/previous-sunuwar-292702350/"
+                               target="_blank">
+                                LinkedIn
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#about-me">
+                                About Me
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#contact-me">
+                                Contact Me
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#education">
+                                Education
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#my-skills">
+                                My Skills
+                            </a>
+                        </li>
+
+                    </ol>
+                </nav>
+
+            </div>
+
+
+            <!-- SEARCH BAR -->
+            <div class="search-form">
+
+                <form>
+                    <label for="search"></label>
+
+                    <input type="text"
+                           id="search"
+                           placeholder="Search">
+
+                    <button type="submit">
+                        Search
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= MAIN ================= -->
+
+    <main>
+
+
+        <!-- ================= ABOUT ME ================= -->
+
+        <section id="about-me">
+
+            <div class="about-container">
+
+                <div class="about-me-container">
+
+                    <h1>About Me</h1>
+
+                    <p>
+                        <b>My name is Previous</b>, best student in my class.
+                          i know multiple programming languages.
+                           i also know how to speak several human languages.
+                            i'm proficient in using various software tools and frameworks.
+                             i'm also proficient in many sports .
+
+                    </p>
+                </div>
+
+                    <img src="images/previous_dai.jpeg"
+                         alt="Previous Dai logo">
+
+                
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= MY PROJECTS ================= -->
+
+        <section id="my-projects">
+
+            <div class="my-projects-container">
+
+                <h2>My Projects</h2>
+
+                <article>
+
+                    <h3>E-Commerce Site</h3>
+
+                    <p>
+                        This is an E-commerce site where you can buy and sell
+                        products online. It has features like user authentication,
+                        product listing, shopping cart, and payment gateway
+                        integration.
+                    </p>
+
+                </article>
+
+
+                <article>
+
+                    <h3>Portfolio Website</h3>
+
+                    <p>
+                        This is a personal portfolio website that showcases my
+                        skills, projects, and experience. It has a responsive
+                        design and includes sections like About Me, Skills,
+                        Projects, and Contact Me.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= MY SKILLS ================= -->
+
+        <section id="my-skills">
+
+            <div class="my-skills-container">
+
+                <h2>My Skills</h2>
+
+                <dl>
+
+                    <dt>Programming Languages</dt>
+                    <dd>Java, Python, C++, C</dd>
+
+                    <dt>Database</dt>
+                    <dd>MySQL, MongoDB, Oracle, PostgreSQL</dd>
+
+                    <dt>Tools</dt>
+                    <dd>MS Word, PowerPoint, Excel, Visual Studio Code</dd>
+
+                    <dt>Frameworks</dt>
+                    <dd>Spring Boot, Django, React</dd>
+
+                </dl>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= EDUCATION ================= -->
+
+        <section id="education">
+
+            <div class="education-container">
+
+                <h2>Education</h2>
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+                            <th>College</th>
+                            <th>Name</th>
+                            <th>Degree</th>
+                            <th>Year</th>
+                            <th>Section</th>
+                        </tr>
+
+                    </thead>
+
+
+                    <tbody>
+
+                        <tr>
+                            <td>Rato Bangla College</td>
+                            <td>Previous Sunuwar</td>
+                            <td>+2</td>
+                            <td>2023-2025</td>
+                            <td>A</td>
+                        </tr>
+
+                        <tr>
+                            <td>Ullens</td>
+                            <td>Previous Sunuwar</td>
+                            <td>10</td>
+                            <td>2021-2022</td>
+                            <td>A</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ME ================= -->
+
+        <section id="contact-me">
+
+            <div class="contact-me-container">
+
+                <h2>Contact Me</h2>
+
+                <form>
+
+                    <label for="email">
+                        Email
+                    </label>
+
+                    <input type="email"
+                           id="email"
+                           placeholder="Enter your email">
+
+                    <br>
+
+
+                    <label for="name">
+                        Name
+                    </label>
+
+                    <input type="text"
+                           id="name"
+                           placeholder="Enter your name">
+
+                    <br>
+
+
+                    <label for="message">
+                        Message
+                    </label>
+
+                    <textarea id="message"
+                              placeholder="Enter your message here..."></textarea>
+
+                    <br>
+
+
+                    <label for="gender">
+                        Gender
+                    </label>
+
+                    <select id="gender">
+
+                        <option value="male">
+                            Male
+                        </option>
+
+                        <option value="female">
+                            Female
+                        </option>
+
+                    </select>
+
+                    <br>
+
+
+                    <button type="submit">
+                        Submit
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <h2>Find me on</h2>
+
+        <a href="https://www.instagram.com/"
+           target="_blank">
+
+            <img src="images/ig.jpg"
+                 alt="Instagram"
+                 width="50"
+                 height="50">
+
+        </a>
+
+
+        <a href="https://www.youtube.com/"
+           target="_blank">
+
+            <img src="images/yt.png"
+                 alt="YouTube"
+                 width="50"
+                 height="50">
+
+        </a>
+
+
+        <a href="https://www.whatsapp.com/"
+           target="_blank">
+
+            <img src="images/whats.jpg"
+                 alt="WhatsApp"
+                 width="50"
+                 height="50">
+
+        </a>
+
+
+        <a href="https://www.linkedin.com/"
+           target="_blank">
+
+            <img src="images/linkedin.png"
+                 alt="LinkedIn"
+                 width="50"
+                 height="50">
+
+        </a>
+
 
         <p>
-            My name is Previous Sunuwar, and I am a Bachelor of
-            Information Technology student. I am interested in
-            software development, web development, and learning
-            new technologies. I enjoy creating simple and useful
-            websites while improving my programming and technical
-            skills.
+            &copy; 2026 Previous. All Rights Reserved.
         </p>
 
-        <img src="images/previous_dai.jpeg"
-             alt="Profile photo of Previous Sunuwar"
-             width="154"
-             height="200">
-
-    </section>
-
-    <!-- SKILLS -->
-    <section id="skills">
-
-        <h2>My Skills</h2>
-
-        <dl>
-            <dt>Programming Languages</dt>
-            <dd>Java, Python, C++, C</dd>
-
-            <dt>Web Technologies</dt>
-            <dd>HTML5, CSS, JavaScript</dd>
-
-            <dt>Database</dt>
-            <dd>MySQL, MongoDB, Oracle, PostgreSQL</dd>
-
-            <dt>Tools</dt>
-            <dd>MS Word, PowerPoint, Excel, Visual Studio Code</dd>
-
-            <dt>Frameworks</dt>
-            <dd>Spring Boot, Django, React</dd>
-        </dl>
-
-    </section>
-
-    <!-- PROJECTS -->
-    <section id="projects">
-
-        <h2>My Projects</h2>
-
-        <article>
-
-            <h3>E-Commerce Website</h3>
-
-            <p>
-                This is an E-commerce website where users can
-                browse products, manage a shopping cart, and
-                purchase products online. The project focuses
-                on creating a simple and user-friendly online
-                shopping experience.
-            </p>
-
-            <p>
-                Repository:
-                <a href="https://github.com/" target="_blank">
-                    View E-Commerce Project on GitHub
-                </a>
-            </p>
-
-        </article>
-
-        <article>
-
-            <h3>Portfolio Website</h3>
-
-            <p>
-                This is a personal portfolio website that
-                showcases my skills, projects, education, and
-                contact information. The website is created
-                using semantic HTML5 elements.
-            </p>
-
-            <p>
-                Repository:
-                <a href="https://github.com/" target="_blank">
-                    View Portfolio Project on GitHub
-                </a>
-            </p>
-
-        </article>
-
-    </section>
-
-    <!-- EDUCATION -->
-    <section id="education">
-
-        <h2>Education</h2>
-
-        <table>
-
-            <thead>
-                <tr>
-                    <th>College</th>
-                    <th>Name</th>
-                    <th>Degree</th>
-                    <th>Year</th>
-                    <th>Section</th>
-                </tr>
-            </thead>
-
-            <tbody>
-                <tr>
-                    <td>Rato Bangla College</td>
-                    <td>Previous Sunuwar</td>
-                    <td>+2</td>
-                    <td>2023-2025</td>
-                    <td>A</td>
-                </tr>
-
-                <tr>
-                    <td>International American University</td>
-                    <td>Previous Sunuwar</td>
-                    <td>Bachelor of Information Technology</td>
-                    <td>2025-Present</td>
-                    <td>J</td>
-                </tr>
-            </tbody>
-
-        </table>
-
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact">
-
-        <h2>Contact Me</h2>
-
-        <form>
-
-            <p>
-                <label for="name">Name:</label>
-                <input type="text"
-                       id="name"
-                       name="name"
-                       placeholder="Enter your name">
-            </p>
-
-            <p>
-                <label for="email">Email:</label>
-                <input type="email"
-                       id="email"
-                       name="email"
-                       placeholder="Enter your email">
-            </p>
-
-            <p>
-                <label for="message">Message:</label>
-                <textarea id="message"
-                          name="message"
-                          rows="5"
-                          cols="30"
-                          placeholder="Enter your message"></textarea>
-            </p>
-
-            <p>
-                <button type="submit">Submit</button>
-            </p>
-
-        </form>
-
-    </section>
-
-</main>
-
-<!-- FOOTER -->
-<footer id="footer">
-
-    <h2>Find Me On</h2>
-
-    <a href="https://www.instagram.com/" target="_blank">
-        <img src="images/ig.jpg"
-             alt="Instagram"
-             width="50"
-             height="50">
-    </a>
-
-    <a href="https://www.youtube.com/" target="_blank">
-        <img src="images/yt.png"
-             alt="YouTube"
-             width="50"
-             height="50">
-    </a>
-
-    <a href="https://www.whatsapp.com/" target="_blank">
-        <img src="images/whats.jpg"
-             alt="WhatsApp"
-             width="50"
-             height="50">
-    </a>
-
-    <a href="https://www.linkedin.com/in/previous-sunuwar-292702350/"
-       target="_blank">
-        <img src="images/linkedin.png"
-             alt="LinkedIn"
-             width="50"
-             height="50">
-    </a>
-
-    <p>
-        &copy; 2026 Previous Sunuwar. All Rights Reserved.
-    </p>
-
-</footer>
+    </footer>
 
 </body>
+
 </html>
